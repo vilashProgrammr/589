@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "priority",
+            "otherEntityName": "priority",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "priorityId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "date",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20180629054908",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "task",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
